@@ -77,8 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 profissional.nome,
                 profissional.cidade,
                 profissional.idiomas,
-                profissional.skills,
-                profissional.bio
+                profissional.skills
             ].join(' ').replace(/,/g, ' ');
             const textoProfissionalNormalizado = removerAcentos(textoProfissionalOriginal.toLowerCase());
             return termos.every(termo => textoProfissionalNormalizado.includes(termo));

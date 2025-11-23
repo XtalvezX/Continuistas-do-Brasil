@@ -8,31 +8,34 @@
     "foto": "imagens/carolina-castanheira.png",
     "linkIMDB": "https://www.imdb.com/fr/name/nm14653277/",
     "email": "carolina.castanheira@example.com",
-    "whatsapp": "5511999990001"
-},
-{
+    "whatsapp": "5511999990001",
+    "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
     "nome": "Cris Lima",
     "cidade": "São Paulo,Rio de Janeiro",
     "idiomas": "",
-    "skills": "Séries, Publicidade",
+    "skills": "Filmes, Séries, Publicidade",
     "bio": "Como continuísta experiente em cinema, TV e streaming, \n Cris Lima é especialista em garantir a fluidez e a coerência visual e narrativa \n de cada produção. Seu trabalho minucioso abrange longas-metragens \n como Os Farofeiros 2, Nosso Lar 3 – Vida Eterna e Canastra Suja, \n além de séries de destaque como Bom Dia, Verônica – 2ª temporada. \n Com um olhar apurado para os detalhes, Cris é uma profissional essencial para o sucesso de qualquer projeto audiovisual.",
     "foto": "imagens/cris-lima.png",
     "linkIMDB": "https://www.imdb.com/fr/name/nm11633874/",
     "email": "cris.lima@example.com",
-    "whatsapp": "5511999990002"
-},
-{
+    "whatsapp": "5511999990002",
+    "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
     "nome": "Fernanda Colin",
     "cidade": "Rio de Janeiro",
     "idiomas": "Espanhol",
-    "skills": "Filmes, Séries, Novelas",
+    "skills": "Filmes, Séries, Novelas, publicidade",
     "bio": "Continuísta experiente e requisitada no audiovisual brasileiro, \n essencial em produções com grandes saltos temporais \n e transformações de personagens, como na cinebiografia “Homem com H” (sobre Ney Matogrosso) \n e na série “Senna” (Netflix). Com um portfólio de impacto, \n que inclui a supervisão de continuidade no recém-lançado Grande Sertão \n e no aguardado O Auto da Compadecida 2, seu trabalho detalhista \n reputação a tornam um nome de referência no mercado, frequentemente cotada para novos projetos da Globo.",
     "foto": "imagens/fernanda-colin.png",
     "linkIMDB": "https://www.imdb.com/fr/name/nm2618660/",
     "email": "fernanda.colin@example.com",
-    "whatsapp": "5521999990003"
-},
-{
+    "whatsapp": "5521999990003",
+    "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
     "nome": "Fernanda Luz",
     "cidade": "Rio de Janeiro",
     "idiomas": "Francês, Inglês, Espanhol",
@@ -41,117 +44,127 @@
     "foto": "imagens/fernanda-luz.png",
     "linkIMDB": "https://www.imdb.com/fr/name/nm0527743/",
     "email": "fernanda.luz@example.com",
-    "whatsapp": "5521999990004"
-},
-{
-    "nome": "JP Teixeira",
-    "cidade": "Belo Horizonte, João Pessoa, Rio de Janeiro, São Paulo",
-    "idiomas": "",
-    "skills": "Filmes, Séries, Documentários",
-    "bio": "Desde 2005, JP Teixeira atua na área de continuidade cinematográfica, \n com formação acadêmica voltada para o tema. \n Ao longo de sua carreira, participou de mais de 45 produções entre longas-metragens \n e séries, colaborando com diretoras e diretores como Fernando Meirelles, \n Roberto Santucci, Vicente Amorim, René Sampaio, Cris D’Amato, Helvécio Ratton, \n Caru Alves de Souza e Marco Dutra. \n Com ampla experiência em grandes produções para Netflix, \n Disney Plus e Globo, assim como em projetos autorais de longa-metragem, \n JP Teixeira compreende a continuidade como um elemento fundamental \n para a coerência narrativa, o ritmo e a fluidez da história. \n Seu trabalho se destaca pela atenção ao detalhe, comprometimento e \n integração com as equipes de roteiro, direção e montagem.",
-    "foto": "imagens/jp-teixeira.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm4070696/",
-    "email": "jp.teixeira@example.com",
-    "whatsapp": "5531999990005"
-},
-{
-    "nome": "Leticia Tauffenbach",
-    "cidade": "São Paulo,Rio de Janeiro",
-    "idiomas": "Inglês",
-    "skills": "Filmes, Séries, Reality Shows",
-    "bio": "Atuo como continuísta de longas, séries, publicidades e novelas há 25 anos, \n    colaborando nos projetos de diretores renomados como Jorge Furtado, Laís Bodanzky,\n    Carlos Saldanha,\n    Daniel Rezende, Joana Jabace, Fernando Coimbra, Cris D'Amato, Cao Hamburger entre outros.\n    Trabalho tanto em projetos autorais quanto em players de streaming como Netflix, \n    Amazon, Disney+, Warner e Globoplay. \n    Através do cinema tive a oportunidade de filmar em diversas cidades do Brasil \n    e em outros países como África do Sul, Israel e Itália. Além dos sets de filmagem, \n    ministro cursos e palestras em instituições como FilmCon, ECA, Unip, \n    Ateliê Bucareste, B_arco, AV Makers etc.",
-    "foto": "imagens/leticia-tauffenbach.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm2320811/",
-    "email": "leticia.tauffenbach@example.com",
-    "whatsapp": "5511999990006"
-},
-{
-    "nome": "Michele Frantz",
-    "cidade": "São Paulo,Rio de Janeiro, Porto Alegre",
-    "idiomas": "Espanhol, Inglês",
-    "skills": "Filmes, Séries",
-    "bio": "Continuista desde 2003 e roteirista de filmes de ficção, \n documentário e programas de TV desde 2005. \n Experiência em direção e roteiro de filmes institucionais, \n e também com pesquisa e pós-produção.",
-    "foto": "imagens/michele-frantz.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm2459970/",
-    "email": "michele.frantz@example.com",
-    "whatsapp": "5551999990007"
-},
-{
-    "nome": "Mara Cecilia",
-    "cidade": "Rio de Janeiro",
-    "idiomas": "",
-    "skills": "Filmes, Séries",
-    "bio": "Continuísta desde 1984, mestre em Ciência da Informação e graduada em Jornalismo, \n nos últimos quatro anos, tem se dedicado ao estudo da construção de roteiro, \n tendo como mestres, Jorge Furtado, Anna Muylaert, \n Dani Reule, Ana Pacheco, Ana Abreu, entre outros.\n Como continuísta tem sólida trajetória no cinema, TV e streaming, \n atuando em produções dirigidas por Ruy Guerra, Walter Avancini, \n Maurício Farias e Lech Majewski, por exemplo. \n Integrou a equipe de longas como Minha Mãe é uma Peça 3, \n Minha Vida em Marte, além de clássicos como Quase Memória, \n A Grande Família – O Filme e O Trapalhão e a Luz Azul.\n Na TV, participou de A Grande Família, Tapas e Beijos,\n Xica da Silva e Amazônia, e produções recentes para streaming \n como Pedaço de Mim (Netflix), Um Ano Inesquecível – Outono (Prime Video) e Impuros (Disney+), entre outros.",
-    "foto": "imagens/mara-cecilia.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm2598582/",
-    "email": "mara.cecilia@example.com",
-    "whatsapp": "5521999990008"
-},
-{
-    "nome": "Stefani Raquel",
-    "cidade": "Belo Horizonte, Cuiabá, Curitiba, Porto Alegre, recife, Rio de Janeiro, Salvador, São Paulo",
-    "idiomas": "",
-    "skills": "",
-    "bio": "Bacharela em Cinema e Audiovisual, esta profissional \n possui uma atuação diversificada na realização de conteúdos \n para diversas plataformas, incluindo séries para TV e streaming, \n longas-metragens, videoclipes e publicidade. Como Continuísta, seu portfólio é notável, \n com participação em grandes produções recentes como os filmes \n Turma da Mônica Jovem: Reflexos do Medo, O Maníaco do Parque (Prime Video), \n Fé Para o Impossível (Netflix) e O Combinado Não Sai Caro (Star+). \n Em séries, colaborou em projetos como How To Be A Carioca (Star+), \n Auto Posto – 2ª Temporada (Netflix) e Tudo Igual… SQN – 2ª Temporada (Disney+), \n demonstrando competência na manutenção da coerência visual e narrativa \n em obras de grande alcance.",
-    "foto": "imagens/stefani-raquel.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm13579240/",
-    "email": "stefani.raquel@example.com",
-    "whatsapp": "5511999990009"
-},
-{
-    "nome": "Leila Schneider",
-    "cidade": "Brasilia, Rio de Janeiro, São Paulo",
-    "idiomas": "Francês, Inglês, Espanhol",
-    "skills": "",
-    "bio": "Com sólida formação internacional em Arts du Spectacles pela Sorbonne Nouvelle \n e UQAM, com um portfólio, incluindo COLMEIA, A CONSPIRAÇÃO CONDOR, \n e os aclamados SAUDOSA MALOCA e GRANDE SERTÃO. \n Sua experiência em séries de plataformas globais abrange títulos como PSSICA \n e O AMOR DA MINHA VIDA, SENNA e BOM DIA, VERÔNICA. \n Além do set, possui expertise em roteiro, pesquisa para projetos documentais franceses (ARTE) \n e fluência em francês, utilizando-a em projetos como a série SANTOS DUMONT, MAIS LEVE QUE O AR.",
-    "foto": "imagens/leila-schneider.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm14125702/",
-    "email": "leila.schneider@example.com",
-    "whatsapp": "5511999990010"
-},
-{
+    "whatsapp": "5521999990004",
+    "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
     "nome": "Florence Weyne Robert",
     "cidade": "Lisboa, Paris, Fortaleza, São paulo, Rio de Janeiro, New York",
     "idiomas": "Francês, Inglês, Espanhol",
-    "skills": "",
+    "skills": "Filmes, Séries, Publicidade",
     "bio": "",
     "foto": "imagens/florence-weyne-robert.png",
     "linkIMDB": "https://www.imdb.com/fr/name/nm1294547/",
     "email": "florence.weyne.robert@example.com",
-    "whatsapp": "5511999990011"
-}
-,
-{
-    "nome": "Patrick Revoredo",
-    "cidade": "Brasilia, Rio de Janeiro, São Paulo",
-    "idiomas": "Espanhol, Inglês",
-    "skills": "",
-    "bio": "Após iniciar-se no cinema em 2008, participou de diversos longas, \n médias e curtas-metragens, sendo ficções, \n documentários ou videoclipes. Por alguns anos, dedicou-se à Assistência de Direção \n e atualmente exerce as funções de Continuísta, Diretor e Roteirista, \n tendo filmando na Argentina, Irlanda do Norte, Chile e Brasil, de norte a sul.",
-    "foto": "imagens/patrick-revoredo.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm9246870/",
-    "email": "patrick.revoredo@example.com",
-    "whatsapp": "5511999990012"
-},
-{
-    "nome": "Paula Mercedes",
-    "cidade": "São Paulo",
-    "idiomas": "Francês, Inglês, Espanhol",
-    "skills": "",
-    "bio": "Paula Mercedes é sócia fundadora da produtora Gato do Parque Cinematográfica. \n Formada em Cinema na Espanha no Centre D’Estudes Cinematografics de Catalunya \n possui uma longa carreira como continuísta, montadora e assistente de direção, \n tendo contribuído com muitos diretores e diretoras em longas e séries.",
-    "foto": "imagens/paula-mercedes.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm2195072/",
-    "email": "paula.mercedes@example.com",
-    "whatsapp": "5511999990013"
-},
-{
-    "nome": "Marianne Macedo Martins",
-    "cidade": "São Paulo,Rio de Janeiro",
-    "idiomas": "Francês, Inglês, Espanhol",
-    "skills": "",
-    "bio": "Com sólida experiência em continuidade, 1ª Assistência de Direção (1AD) e Direção, \n Marianne possui um portfólio notável em longas-metragens. \n Seu trabalho em continuidade inclui produções como Tim Maia, Boa Sorte, Deserto, \n O Clube dos Anjos e o filme em finalização Era Uma Vez Minha Primeira Vez. \n Ela também atuou na assistência de continuidade no sucesso Minha Irmã E Eu. \n Com um histórico diversificado na indústria, que abrange diversos gêneros e produtoras, \n Marianne demonstra um domínio técnico e artístico em suas funções, \n contribuindo para a coesão e a excelência das obras em que participa.",
-    "foto": "imagens/marianne-macedo-martins.png",
-    "linkIMDB": "https://www.imdb.com/fr/name/nm3531520/",
-    "email": "marianne.macedo.martins@example.com",
-    "whatsapp": "5521999990014"
-}
+    "whatsapp": "5511999990011",
+    "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "JP Teixeira",
+        "cidade": "Belo Horizonte, João Pessoa, Rio de Janeiro, São Paulo",
+        "idiomas": "",
+        "skills": "Filmes, Séries, Publicidade",
+        "bio": "Desde 2005, JP Teixeira atua na área de continuidade cinematográfica, \n com formação acadêmica voltada para o tema. \n Ao longo de sua carreira, participou de mais de 45 produções entre longas-metragens \n e séries, colaborando com diretoras e diretores como Fernando Meirelles, \n Roberto Santucci, Vicente Amorim, René Sampaio, Cris D’Amato, Helvécio Ratton, \n Caru Alves de Souza e Marco Dutra. \n Com ampla experiência em grandes produções para Netflix, \n Disney Plus e Globo, assim como em projetos autorais de longa-metragem, \n JP Teixeira compreende a continuidade como um elemento fundamental \n para a coerência narrativa, o ritmo e a fluidez da história. \n Seu trabalho se destaca pela atenção ao detalhe, comprometimento e \n integração com as equipes de roteiro, direção e montagem.",
+        "foto": "imagens/jp-teixeira.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm4070696/",
+        "email": "jp.teixeira@example.com",
+        "whatsapp": "5531999990005",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Leila Schneider",
+        "cidade": "Brasilia, Rio de Janeiro, São Paulo",
+        "idiomas": "Francês, Inglês, Espanhol",
+        "skills": "",
+        "bio": "Com sólida formação internacional em Arts du Spectacles pela Sorbonne Nouvelle \n e UQAM, com um portfólio, incluindo COLMEIA, A CONSPIRAÇÃO CONDOR, \n e os aclamados SAUDOSA MALOCA e GRANDE SERTÃO. \n Sua experiência em séries de plataformas globais abrange títulos como PSSICA \n e O AMOR DA MINHA VIDA, SENNA e BOM DIA, VERÔNICA. \n Além do set, possui expertise em roteiro, pesquisa para projetos documentais franceses (ARTE) \n e fluência em francês, utilizando-a em projetos como a série SANTOS DUMONT, MAIS LEVE QUE O AR.",
+        "foto": "imagens/leila-schneider.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm14125702/",
+        "email": "leila.schneider@example.com",
+        "whatsapp": "5511999990010",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Leticia Tauffenbach",
+        "cidade": "São Paulo,Rio de Janeiro",
+        "idiomas": "Inglês",
+        "skills": "Filmes, Séries, Publicidade",
+        "bio": "Atuo como continuísta de longas, séries, publicidades e novelas há 25 anos, \n    colaborando nos projetos de diretores renomados como Jorge Furtado, Laís Bodanzky,\n    Carlos Saldanha,\n    Daniel Rezende, Joana Jabace, Fernando Coimbra, Cris D'Amato, Cao Hamburger entre outros.\n    Trabalho tanto em projetos autorais quanto em players de streaming como Netflix, \n    Amazon, Disney+, Warner e Globoplay. \n    Através do cinema tive a oportunidade de filmar em diversas cidades do Brasil \n    e em outros países como África do Sul, Israel e Itália. Além dos sets de filmagem, \n    ministro cursos e palestras em instituições como FilmCon, ECA, Unip, \n    Ateliê Bucareste, B_arco, AV Makers etc.",
+        "foto": "imagens/leticia-tauffenbach.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm2320811/",
+        "email": "leticia.tauffenbach@example.com",
+        "whatsapp": "5511999990006",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Mara Cecilia",
+        "cidade": "Rio de Janeiro",
+        "idiomas": "",
+        "skills": "Filmes, Séries",
+        "bio": "Continuísta desde 1984, mestre em Ciência da Informação e graduada em Jornalismo, \n nos últimos quatro anos, tem se dedicado ao estudo da construção de roteiro, \n tendo como mestres, Jorge Furtado, Anna Muylaert, \n Dani Reule, Ana Pacheco, Ana Abreu, entre outros.\n Como continuísta tem sólida trajetória no cinema, TV e streaming, \n atuando em produções dirigidas por Ruy Guerra, Walter Avancini, \n Maurício Farias e Lech Majewski, por exemplo. \n Integrou a equipe de longas como Minha Mãe é uma Peça 3, \n Minha Vida em Marte, além de clássicos como Quase Memória, \n A Grande Família – O Filme e O Trapalhão e a Luz Azul.\n Na TV, participou de A Grande Família, Tapas e Beijos,\n Xica da Silva e Amazônia, e produções recentes para streaming \n como Pedaço de Mim (Netflix), Um Ano Inesquecível – Outono (Prime Video) e Impuros (Disney+), entre outros.",
+        "foto": "imagens/mara-cecilia.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm2598582/",
+        "email": "mara.cecilia@example.com",
+        "whatsapp": "5521999990008",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Marianne Macedo Martins",
+        "cidade": "São Paulo,Rio de Janeiro",
+        "idiomas": "Francês, Inglês, Espanhol",
+        "skills": "Filmes, Séries, Publicidade",
+        "bio": "Com sólida experiência em continuidade, 1ª Assistência de Direção (1AD) e Direção, \n Marianne possui um portfólio notável em longas-metragens. \n Seu trabalho em continuidade inclui produções como Tim Maia, Boa Sorte, Deserto, \n O Clube dos Anjos e o filme em finalização Era Uma Vez Minha Primeira Vez. \n Ela também atuou na assistência de continuidade no sucesso Minha Irmã E Eu. \n Com um histórico diversificado na indústria, que abrange diversos gêneros e produtoras, \n Marianne demonstra um domínio técnico e artístico em suas funções, \n contribuindo para a coesão e a excelência das obras em que participa.",
+        "foto": "imagens/marianne-macedo-martins.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm3531520/",
+        "email": "marianne.macedo.martins@example.com",
+        "whatsapp": "5521999990014",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Michele Frantz",
+        "cidade": "São Paulo,Rio de Janeiro, Porto Alegre",
+        "idiomas": "Espanhol, Inglês",
+        "skills": "Filmes, Séries",
+        "bio": "Continuista desde 2003 e roteirista de filmes de ficção, \n documentário e programas de TV desde 2005. \n Experiência em direção e roteiro de filmes institucionais, \n e também com pesquisa e pós-produção.",
+        "foto": "imagens/michele-frantz.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm2459970/",
+        "email": "michele.frantz@example.com",
+        "whatsapp": "5551999990007",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Patrick Revoredo",
+        "cidade": "Brasilia, Rio de Janeiro, São Paulo",
+        "idiomas": "Espanhol, Inglês",
+        "skills": "Filmes, Séries, Publicidade",
+        "bio": "Após iniciar-se no cinema em 2008, participou de diversos longas, \n médias e curtas-metragens, sendo ficções, \n documentários ou videoclipes. Por alguns anos, dedicou-se à Assistência de Direção \n e atualmente exerce as funções de Continuísta, Diretor e Roteirista, \n tendo filmando na Argentina, Irlanda do Norte, Chile e Brasil, de norte a sul.",
+        "foto": "imagens/patrick-revoredo.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm9246870/",
+        "email": "patrick.revoredo@example.com",
+        "whatsapp": "5511999990012",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Paula Mercedes",
+        "cidade": "São Paulo",
+        "idiomas": "Francês, Inglês, Espanhol",
+        "skills": "Filmes, Séries, Publicidade",
+        "bio": "Paula Mercedes é sócia fundadora da produtora Gato do Parque Cinematográfica. \n Formada em Cinema na Espanha no Centre D’Estudes Cinematografics de Catalunya \n possui uma longa carreira como continuísta, montadora e assistente de direção, \n tendo contribuído com muitos diretores e diretoras em longas e séries.",
+        "foto": "imagens/paula-mercedes.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm2195072/",
+        "email": "paula.mercedes@example.com",
+        "whatsapp": "5511999990013",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    },
+    {
+        "nome": "Stefani Raquel",
+        "cidade": "Belo Horizonte, Cuiabá, Curitiba, Porto Alegre, recife, Rio de Janeiro, Salvador, São Paulo",
+        "idiomas": "",
+        "skills": "Filmes, Séries",
+        "bio": "Bacharela em Cinema e Audiovisual, esta profissional \n possui uma atuação diversificada na realização de conteúdos \n para diversas plataformas, incluindo séries para TV e streaming, \n longas-metragens, videoclipes e publicidade. Como Continuísta, seu portfólio é notável, \n com participação em grandes produções recentes como os filmes \n Turma da Mônica Jovem: Reflexos do Medo, O Maníaco do Parque (Prime Video), \n Fé Para o Impossível (Netflix) e O Combinado Não Sai Caro (Star+). \n Em séries, colaborou em projetos como How To Be A Carioca (Star+), \n Auto Posto – 2ª Temporada (Netflix) e Tudo Igual… SQN – 2ª Temporada (Disney+), \n demonstrando competência na manutenção da coerência visual e narrativa \n em obras de grande alcance.",
+        "foto": "imagens/stefani-raquel.png",
+        "linkIMDB": "https://www.imdb.com/fr/name/nm13579240/",
+        "email": "stefani.raquel@example.com",
+        "whatsapp": "5511999990009",
+        "curriculo": "https://link-para-o-seu-pdf.com/curriculo.pdf"
+    }
 ]

@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     
                     <div class="perfil-botoes-container">
                         ${profissional.linkIMDB ? `<a href="${profissional.linkIMDB}" target="_blank" class="botao-imdb">IMDB</a>` : ''}                        
+                        ${profissional.curriculo ? `<a href="${profissional.curriculo}" target="_blank" class="botao-curriculo">Currículo</a>` : ''}
                         ${profissional.whatsapp ? `<a href="https://wa.me/${profissional.whatsapp}" target="_blank" class="botao-whatsapp">WhatsApp</a>` : ''}
                         ${profissional.email ? `<a href="mailto:${profissional.email}" class="botao-perfil">E-mail</a>` : ''}
                         <button onclick="history.back()" class="botao-voltar">Voltar</button>

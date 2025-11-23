@@ -1,46 +1,50 @@
 [
     {
-        "nome": "Higor Mourão",
-        "cidade": "Rio de Janeiro, Salvador, São Paulo",
-        "idiomas": "espanhol",
-        "skills": "",
-        "bio": "Formado em Cinema e Audiovisual pela Universidade Anhembi Morumbi \n com distinção acadêmica (Cum Laude), Higor construiu um portfólio robusto \n que inclui papéis de Continuista em produções notáveis da Netflix \n (como DNA do Crime, Ponto Final, Sintonia e Congonhas: Tragédia Anunciada), \n Prime Video (Negociador), Globoplay (Rota 66) e Disney+ (Silvio Santos – O Rei da TV), \n além de futuros longas como O Gênio do Crime e Asa Branca, A Voz da Arena.",
-        "foto": "imagens/higor-mourao.png",
-        "linkIMDB": "https://www.imdb.com/pt/name/nm14799845/",
-        "email": "",
-        "whatsapp": "5511999990015"
-    },
-    {
-        "nome": "João Guesser",
-        "cidade": "Florianoópolis, São Paulo, Rio de Janeiro",
-        "idiomas": "espanhol, inglês",
-        "skills": "",
-        "bio": "Profissional de audiovisual focado na área de Continuidade, \n atuando como Assistente de Continuidade em projetos de destaque desde 2023. \n Seu trabalho em longas-metragens inclui Agentes Especiais (inédito, Migdal Filmes), \n dirigido por Pedro Antônio, e Caindo na Real (Elo Studios), sob a direção de André Pellenz. \n Ele também contribuiu para a continuidade de séries como Body by Beth (Migdal Filmes). \n Com formação prática e experiência em filmes independentes, como o curta-metragem Ser ou não ser ator, \n demonstra dedicação em garantir a coerência visual e narrativa de grandes e pequenos projetos.",
-        "foto": "imagens/joao-guesser.png",
-        "linkIMDB": "",
-        "email": "",
-        "whatsapp": "5511999990016"
-    },
-    {
         "nome": "Ana Carol Martins Alho",
         "cidade": "Rio de Janeiro, São Paulo",
         "idiomas": "espanhol, inglês",
-        "skills": "",
+        "skills": "Filmes, Séries",
         "bio": "Ana Carol Martins Alho é graduada em Cinema pela UFSC e possui formação complementar em Edição, \n Direção de Atores e Assistência de Direção na Argentina. Atua na área de continuidade desde 2017, \n com experiência em longas, séries e curtas-metragens. \n Entre seus trabalhos, destacam-se a participação como de continuista na série Rensga Hits, \n no longa Um Dia com Jerusa e na novela Beleza Fatal. \n Tem interesse em novos projetos que proporcionem aprendizado e trocas criativas, \n especialmente aqueles que têm diferentes realidades de produção. \n Valoriza processos colaborativos, comunicação clara e o compromisso com a qualidade narrativa em cada projeto que integra.",
         "foto": "imagens/ana-carol-martins-alho.png",
         "linkIMDB": "https://www.imdb.com/pt/name/nm16352882/",
-        "email": "",
-        "whatsapp": "5511999990017"
+        "email": "anaalho@example.com",
+        "whatsapp": "5511999990017",
+        "curriculo": "https://link-para-o-curriculo-da-anacarol.com/cv.pdf"
     },
     {
         "nome": "Felipe Aufiero",
         "cidade": "Curitiba, São Paulo",
         "idiomas": "espanhol, inglês, italiano",
-        "skills": "",
+        "skills": "Filmes, Séries",
         "bio": "Nascido em Manaus, formado em Cinema e Vídeo pela UNESPAR \n e, desde de 2015, trabalha como continuista. Já exerceu funções de \n Assistente de Direção e Produção Executiva, além de diretor \n e roteirista em curtas-metragens. Entre seus principais trabalhos como continuista \n estão os longa-metragens “Alice Júnior” (dir. Gil Baroni), \n Jesus Kid (dir. Aly Muritiba), “Uma Família Feliz” (dir. José Eduardo Belmonte), \n os seriados Rio Connection (dirigido por Mauro Lima para a Globoplay) e Contracapa (dirigido por Guto Pasko e Franco Verdoia para a TV Brasil).",
         "foto": "imagens/felipe-aufiero.png",
         "linkIMDB": "https://www.imdb.com/pt/name/nm10122803/",
-        "email": "",
-        "whatsapp": "5511999990018"
+        "email": "felipeaufiero@example.com",
+        "whatsapp": "5511999990018",
+        "curriculo": "https://link-para-o-curriculo-do-felipeaufiero.com/cv.pdf"
+    },
+    {
+        "nome": "Higor Mourão",
+        "cidade": "Rio de Janeiro, Salvador, São Paulo",
+        "idiomas": "espanhol",
+        "skills": "Filmes, Séries",
+        "bio": "Formado em Cinema e Audiovisual pela Universidade Anhembi Morumbi \n com distinção acadêmica (Cum Laude), Higor construiu um portfólio robusto \n que inclui papéis de Continuista em produções notáveis da Netflix \n (como DNA do Crime, Ponto Final, Sintonia e Congonhas: Tragédia Anunciada), \n Prime Video (Negociador), Globoplay (Rota 66) e Disney+ (Silvio Santos – O Rei da TV), \n além de futuros longas como O Gênio do Crime e Asa Branca, A Voz da Arena.",
+        "foto": "imagens/higor-mourao.png",
+        "linkIMDB": "https://www.imdb.com/pt/name/nm14799845/",
+        "email": "higor.mourao@example.com",
+        "whatsapp": "5511999990015",
+        "curriculo": "https://link-para-o-curriculo-do-higor.com/cv.pdf"
+    },
+    {
+        "nome": "João Guesser",
+        "cidade": "Florianópolis, São Paulo, Rio de Janeiro",
+        "idiomas": "espanhol, inglês",
+        "skills": "Filmes, Séries",
+        "bio": "Profissional de audiovisual focado na área de Continuidade, \n atuando como Assistente de Continuidade em projetos de destaque desde 2023. \n Seu trabalho em longas-metragens inclui Agentes Especiais (inédito, Migdal Filmes), \n dirigido por Pedro Antônio, e Caindo na Real (Elo Studios), sob a direção de André Pellenz. \n Ele também contribuiu para a continuidade de séries como Body by Beth (Migdal Filmes). \n Com formação prática e experiência em filmes independentes, como o curta-metragem Ser ou não ser ator, \n demonstra dedicação em garantir a coerência visual e narrativa de grandes e pequenos projetos.",
+        "foto": "imagens/joao-guesser.png",
+        "linkIMDB": "",
+        "email": "joao.guesser@example.com",
+        "whatsapp": "5511999990016",
+        "curriculo": "https://link-para-o-curriculo-do-joaoguesser.com/cv.pdf"
     }
 ]

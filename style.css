@@ -414,6 +414,7 @@ header {
 .perfil-detalhado .botao-perfil,
 .perfil-detalhado .botao-imdb,
 .perfil-detalhado .botao-voltar,
+.perfil-detalhado .botao-curriculo,
 .perfil-detalhado .botao-whatsapp {
     display: inline-block;
     margin-top: 15px;
@@ -437,9 +438,13 @@ header {
     background-color: #70d325; /* Verde WhatsApp */
 }
 
+.perfil-detalhado .botao-curriculo {
+    background-color: #dc3545; /* Vermelho */
+}
+
 .perfil-detalhado .botao-imdb {
     background-color: #e316ba; /* Amarelo IMDB */
-    color: #000000;
+    color: #f9f5f5;
 }
 
 .perfil-detalhado .botao-voltar {
@@ -450,6 +455,7 @@ header {
 .perfil-detalhado .botao-perfil:hover,
 .perfil-detalhado .botao-imdb:hover,
 .perfil-detalhado .botao-voltar:hover,
+.perfil-detalhado .botao-curriculo:hover,
 .perfil-detalhado .botao-whatsapp:hover {
     transform: translateY(-2px); /* Leve elevação do botão */
     filter: brightness(1.1); /* Aumenta o brilho */

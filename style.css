@@ -288,106 +288,6 @@ header {
     margin-top: 15px;
     flex-wrap: wrap; /* Garante que os botões quebrem a linha em telas muito pequenas */
 }
-
-.botao-perfil, .botao-imdb, .botao-voltar {
-    display: inline-block;
-    margin-top: 15px;
-    margin-right: 10px;
-    padding: 8px 12px; /* Diminuído */
-    background-color: #70aff3;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Adiciona transição suave */
-}
-
-/* Estilo específico para o botão IMDB */
-.botao-imdb {
-    background-color: #f518d8; /* Cor amarela do IMDB */
-    color: #000000; /* Texto preto para contraste */
-    font-weight: bold;
-}
-
-/* Estilo específico para o botão Voltar */
-.botao-voltar {
-    background-color: #f518d8; /* Cor rosa, igual ao IMDB */
-    font-weight: bold; /* Deixa a fonte em negrito, como o botão IMDB */
-    text-transform: uppercase; /* Transforma o texto em maiúsculas */
-    color: #000000; /* Texto preto, igual ao IMDB */
-}
-
-/* Efeito hover para os botões */
-.botao-imdb:hover, .botao-voltar:hover {
-    background-color: #f08ee8; /* Cor escura no hover */
-    color: white;
-    transform: translateY(-2px); /* Leve elevação do botão */
-}
-
-/* --- Estilo Específico para o Botão "Ver Perfil Completo" --- */
-.botao-perfil {
-    font-weight: bold;
-    background-color: #22e63f; /* Cor verde original */
-    font-size: 0.85em; /* Fonte um pouco menor */
-    line-height: 1.2; /* Reduz a altura da linha para compactar o texto */
-    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
-    padding: 2px 4px; /* Padding reduzido para diminuir a altura */
-    position: absolute; /* Posicionamento absoluto em relação ao .card */
-    bottom: 8px; /* Distância da parte inferior do card */
-    right: 8px; /* Distância da parte direita do card */
-    margin: 0; /* Remove todas as margens */
-    width: 40%; /* Largura flexível em vez de fixa */
-    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
-    border-radius: 0; /* Remove as bordas arredondadas */
-    text-align: center; /* Centraliza o texto dentro do botão */
-}
-
-.botao-perfil:hover {
-    background-color: #dd13c9; /* Cor rosa original no hover */
-    color: #fff; /* Garante que o texto continue branco */
-}
-
-/* --- Estilo Específico para o Botão "WhatsApp" --- */
-.botao-whatsapp {
-    background-color: #22e63f; /* Cor verde do WhatsApp */
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.85em;
-    line-height: 1.2;
-    transition: background-color 0.3s ease;
-    padding: 8px 12px; /* Padding igual aos outros botões do perfil */
-    border-radius: 5px; /* Bordas arredondadas como os outros botões */
-    margin: 0; /* Remove margens para o flexbox controlar */
-}
-
-/* Sobrescreve o estilo do botão WhatsApp especificamente na página de perfil */
-.perfil-botoes-container .botao-whatsapp {
-    position: static; /* Garante que não seja posicionado de forma absoluta */
-    width: auto;      /* Largura automática */
-    margin-top: 15px; /* Alinha verticalmente com os outros botões */
-}
-
-/* Estilo para o botão WhatsApp DENTRO do card na página inicial */
-.card .botao-whatsapp {
-    position: absolute;
-    bottom: 8px;
-    left: 8px; /* Posiciona no canto esquerdo */
-    width: 40%;
-    padding: 2px 4px;
-    border-radius: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: white; /* Garante o texto branco */
-}
-
-/* Efeito hover para o botão WhatsApp DENTRO do card */
-.card .botao-whatsapp:hover {
-    background-color: #dd13c9; /* Mesma cor rosa do hover do botão de perfil */
-}
-
 /* --- Estilos para a Página de Contato (Layout Melhorado) --- */
 .formulario-contato {
     max-width: 800px; /* Define uma largura máxima para o formulário */
@@ -472,4 +372,85 @@ header {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+/* --- ESTILOS DOS BOTÕES --- */
+
+/* Estilo base para botões nos cards da página inicial */
+.card .botao-perfil,
+.card .botao-whatsapp {
+    position: absolute;
+    bottom: 8px;
+    width: 40%;
+    padding: 2px 4px;
+    margin: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85em;
+    line-height: 1.2;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.card .botao-perfil {
+    right: 8px;
+    background-color: #22e63f; /* Verde */
+}
+
+.card .botao-whatsapp {
+    left: 8px;
+    background-color: #22e63f; /* Verde */
+}
+
+.card .botao-perfil:hover,
+.card .botao-whatsapp:hover {
+    background-color: #dd13c9; /* Rosa no hover */
+}
+
+/* Estilo base para botões na página de perfil */
+.perfil-detalhado .botao-perfil,
+.perfil-detalhado .botao-imdb,
+.perfil-detalhado .botao-voltar,
+.perfil-detalhado .botao-whatsapp {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Cores específicas para cada botão no perfil */
+.perfil-detalhado .botao-perfil { /* E-mail */
+    background-color: #1ceedc; /* Azul */
+}
+
+.perfil-detalhado .botao-whatsapp {
+    background-color: #70d325; /* Verde WhatsApp */
+}
+
+.perfil-detalhado .botao-imdb {
+    background-color: #e316ba; /* Amarelo IMDB */
+    color: #000000;
+}
+
+.perfil-detalhado .botao-voltar {
+    background-color: #8d16e7; /* Cinza */
+}
+
+/* Efeito hover para botões do perfil */
+.perfil-detalhado .botao-perfil:hover,
+.perfil-detalhado .botao-imdb:hover,
+.perfil-detalhado .botao-voltar:hover,
+.perfil-detalhado .botao-whatsapp:hover {
+    transform: translateY(-2px); /* Leve elevação do botão */
+    filter: brightness(1.1); /* Aumenta o brilho */
 }

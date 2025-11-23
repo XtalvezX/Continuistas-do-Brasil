@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../node-example-base-content-main"
+		},
+		{
+			"path": "../Continuístas-do-Brasil"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Continuístas-do-Brasil"
+	}
+}

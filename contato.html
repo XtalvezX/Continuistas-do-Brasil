@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contato - Continuístas do Brasil">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Continuístas do Brasil</title>
+</head>
+<body>
+    <header>
+        <h1>Continuístas do Brasil</h1>
+        <nav>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                &#9776; <!-- Ícone Hambúrguer -->
+            </button>
+            <ul class="menu-navegacao">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre a Profissão</a></li>
+                <li><a href="conteudos.html">Conteúdos Úteis</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="apresentacao">
+            <h2>Entre em Contato</h2>
+            <p>Tem alguma dúvida, sugestão ou quer fazer parte da nossa lista de profissionais? Use o formulário abaixo ou envie um e-mail.</p>
+        </section>
+
+        <section class="formulario-contato">
+            <form action="#" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Continuístas do Brasil. Site construído por <a href="https://www.linkedin.com/in/sable-valente/" target="_blank">FWR</a>.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,475 @@
+/* Estilos Gerais */
+body {
+    font-family: "Cutive Mono", monospace;
+    margin: 0;
+    background-color: #eee97d;
+    color: #333;
+}
+
+header {
+    background-color: #f4d94f;
+    color: rgb(114, 108, 108);
+    padding: 1rem;
+    text-align: center;
+}
+
+
+/* Estilos do Menu de Navegação */
+.menu-navegacao {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-navegacao a {
+    color: rgb(150, 144, 144);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu-navegacao a:hover {
+    background-color: rgba(170, 156, 156, 0.2);
+}
+
+/* Estilos da Seção de Apresentação */
+.apresentacao {
+    max-width: 800px;
+    margin: 30px auto; /* Centraliza e adiciona espaço vertical */
+    padding: 25px;
+    background-color: #ec7d7d;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* --- Estilos do Menu Mobile --- */
+.menu-toggle {
+    display: none; /* Escondido por padrão em telas grandes */
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: rgb(114, 108, 108);
+    cursor: pointer;
+}
+
+/* Centraliza o título dentro da seção de apresentação */
+.apresentacao h2 {
+    text-align: center;
+}
+
+/* Classe auxiliar para alinhar texto à esquerda */
+.texto-esquerda {
+    text-align: left !important; /* Usa !important para garantir a sobreposição */
+}
+
+/* Contêiner principal para as colunas */
+.conteudo-principal {
+    /* Por padrão (mobile), as colunas ficarão empilhadas */
+    gap: 20px; /* Espaço entre as colunas */
+    padding: 20px;
+}
+
+/* Estilo de cada coluna */
+.coluna {
+    flex: 1; /* Faz com que cada coluna ocupe o mesmo espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-coluna {
+    margin-top: 0;
+    margin-bottom: 15px; /* Adiciona espaço abaixo do título */
+    text-align: center;
+    color: #786b6b; /* Change la couleur de la police du titre */
+    font-family: "Cutive Mono", monospace; /* Change la police du titre */
+}
+
+/* Estilos para a busca */
+.busca-container {
+    display: flex;
+    /* Define uma largura máxima para a barra de busca */
+    max-width: 400px; 
+    width: 100%; /* Garante que ela seja responsiva em telas menores */
+    margin: 0 auto 15px auto; /* Centraliza a barra e mantém a margem inferior */
+}
+
+/* --- AJUSTE DO TAMANHO DA CAIXA DE BUSCA --- */
+.busca-container input[type="text"] {
+    flex-grow: 1; /* Faz o input ocupar o espaço disponível */
+    padding: 6px; /* Diminui o padding para deixar a caixa menor */
+    font-size: 0.9em; /* Diminui o tamanho da fonte */
+    border: 1px solid #d4cfcf;
+    font-family: inherit; /* Garante que a fonte seja a mesma do resto do site */
+    border-radius: 4px 0 0 4px;
+    background-color: #f3aaf6; /* Change la couleur de fond du champ de recherche */
+}
+
+.busca-container input[type="text"]:focus {
+    background-color: #f6cece; /* Muda o fundo para branco para melhor legibilidade */
+    border-color: #70aff3; /* Deixa a cor da borda igual à do botão para consistência */
+    outline: none; /* Remove o contorno padrão que alguns navegadores adicionam */
+    box-shadow: 0 0 0 3px rgba(112, 175, 243, 0.4); /* Adiciona um 'brilho' azulado sutil */
+    transition: all 0.2s ease-in-out; /* Animação suave na mudança */
+}
+
+.botao-busca {
+    padding: 8px 12px;
+    border: 1px solid #6eabeb;
+    background-color: #70aff3;
+    font-family: inherit; /* Garante que a fonte seja a mesma do resto do site */
+    color: rgb(63, 52, 52);
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Contêiner dos cards */
+.card-container {
+    padding: 15px;
+    overflow-y: auto; /* Adiciona scroll se o conteúdo for muito grande */
+}
+
+/* Estilo para o botão "Carregar Mais" */
+.botao-carregar-mais {
+    display: block; /* Ocupa a largura e permite margem */
+    width: 60%; /* Largura do botão */
+    max-width: 250px; /* Largura máxima para não ficar muito grande em telas largas */
+    margin: 20px auto; /* Centraliza o botão e adiciona espaço vertical */
+    padding: 10px 15px;
+    background-color: #f4d94f; /* Cor amarela do cabeçalho */
+    color: #333; /* Cor do texto escura para contraste */
+    border: 1px solid #eac93d; /* Borda um pouco mais escura */
+    border-radius: 5px;
+    font-family: inherit; /* Usa a mesma fonte do site */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-carregar-mais:hover {
+    background-color: #eac93d; /* Cor mais escura ao passar o mouse */
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 8px; /* Diminuído */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: grid; /* Usamos grid para mais controle */
+    grid-template-columns: 1fr auto; /* Duas colunas: uma flexível e uma para a foto */
+    grid-template-rows: auto 1fr; /* Duas linhas */
+    gap: 15px;
+    display: flex; /* Voltamos para flexbox */
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 15px; /* Espaço entre o bloco de texto e a foto */
+    background-color: #2a89cd; /* Fundo branco para o card */
+    position: relative; /* Essencial para o posicionamento absoluto do botão */
+    padding-bottom: 45px; /* Adiciona espaço na parte inferior para o botão */
+}
+
+.card-foto {
+    width: 70px; /* Diminuído */
+    height: 70px; /* Diminuído */
+    width: 90px;
+    height: 90px;
+    /* border-radius removido para a foto ficar quadrada */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    flex-shrink: 0; /* Impede que a foto encolha */
+    grid-column: 2 / 3; /* Coloca a foto na segunda coluna */
+    grid-row: 1 / 2;    /* Coloca a foto na primeira linha */
+    order: 2; /* Move a foto para a direita */
+}
+
+.card-info {
+    flex: 1; /* Faz o container de informações ocupar o espaço restante */
+    display: flex;
+    flex-direction: column;
+    order: 1; /* Move as informações para a esquerda */
+    grid-column: 1 / 2; /* Coloca as infos na primeira coluna */
+    grid-row: 1 / 3;    /* Faz as infos ocuparem as duas linhas */
+}
+
+.card-info h2 {
+    margin-bottom: 4px; /* Diminuído */
+    font-size: 1.1em; /* Diminuído */
+}
+
+.card-info p {
+    font-size: 0.9em; /* Diminuído */
+    margin: 2px 0; /* Diminuído */
+    /* Permite que o texto quebre a linha normalmente */
+    white-space: normal;
+}
+
+/* --- Media Query para Telas Maiores (Tablets e Desktops) --- */
+@media (min-width: 768px) {
+    .conteudo-principal {
+        display: flex; /* Ativa o layout de colunas lado a lado */
+        flex-wrap: wrap;
+    }
+
+    /* Em telas menores, alinha o texto da apresentação à esquerda para melhor legibilidade */
+    .apresentacao {
+        text-align: left;
+    }
+
+    /* --- Media Query para Telas Menores (Celulares) --- */
+    @media (max-width: 767px) {
+        .menu-toggle {
+            display: block; /* Mostra o botão do menu */
+            position: absolute; /* Para posicionar em relação ao header */
+            top: 1.5rem;
+            right: 1.5rem;
+            z-index: 1001; /* Para ficar acima de outros elementos */
+        }
+
+        .menu-navegacao {
+            display: none; /* Esconde o menu por padrão */
+            position: fixed; /* Fica fixo na tela ao abrir */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh; /* Ocupa a tela inteira */
+            background-color: rgba(244, 217, 79, 0.98); /* Fundo com leve transparência */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            z-index: 1000;
+        }
+
+        .menu-navegacao.ativo {
+            display: flex; /* Mostra o menu quando a classe 'ativo' é adicionada */
+        }
+
+        .menu-navegacao a {
+            font-size: 1.5rem; /* Aumenta o tamanho da fonte para facilitar o toque */
+            color: #333;
+        }
+    }
+}
+
+/* --- Estilos para a Página de Perfil --- */
+.perfil-detalhado {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e9e6ce;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap; /* Para telas pequenas */
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.perfil-foto-grande {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 0 auto; /* Centraliza em telas pequenas */
+}
+
+.perfil-info {
+    flex: 1;
+    min-width: 300px; /* Garante que o texto não fique muito espremido */
+}
+
+.perfil-botoes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap; /* Garante que os botões quebrem a linha em telas muito pequenas */
+}
+
+.botao-perfil, .botao-imdb, .botao-voltar {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 8px 12px; /* Diminuído */
+    background-color: #70aff3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Adiciona transição suave */
+}
+
+/* Estilo específico para o botão IMDB */
+.botao-imdb {
+    background-color: #f518d8; /* Cor amarela do IMDB */
+    color: #000000; /* Texto preto para contraste */
+    font-weight: bold;
+}
+
+/* Estilo específico para o botão Voltar */
+.botao-voltar {
+    background-color: #f518d8; /* Cor rosa, igual ao IMDB */
+    font-weight: bold; /* Deixa a fonte em negrito, como o botão IMDB */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    color: #000000; /* Texto preto, igual ao IMDB */
+}
+
+/* Efeito hover para os botões */
+.botao-imdb:hover, .botao-voltar:hover {
+    background-color: #f08ee8; /* Cor escura no hover */
+    color: white;
+    transform: translateY(-2px); /* Leve elevação do botão */
+}
+
+/* --- Estilo Específico para o Botão "Ver Perfil Completo" --- */
+.botao-perfil {
+    font-weight: bold;
+    background-color: #22e63f; /* Cor verde original */
+    font-size: 0.85em; /* Fonte um pouco menor */
+    line-height: 1.2; /* Reduz a altura da linha para compactar o texto */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+    padding: 2px 4px; /* Padding reduzido para diminuir a altura */
+    position: absolute; /* Posicionamento absoluto em relação ao .card */
+    bottom: 8px; /* Distância da parte inferior do card */
+    right: 8px; /* Distância da parte direita do card */
+    margin: 0; /* Remove todas as margens */
+    width: 40%; /* Largura flexível em vez de fixa */
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    border-radius: 0; /* Remove as bordas arredondadas */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.botao-perfil:hover {
+    background-color: #dd13c9; /* Cor rosa original no hover */
+    color: #fff; /* Garante que o texto continue branco */
+}
+
+/* --- Estilo Específico para o Botão "WhatsApp" --- */
+.botao-whatsapp {
+    background-color: #22e63f; /* Cor verde do WhatsApp */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85em;
+    line-height: 1.2;
+    transition: background-color 0.3s ease;
+    padding: 8px 12px; /* Padding igual aos outros botões do perfil */
+    border-radius: 5px; /* Bordas arredondadas como os outros botões */
+    margin: 0; /* Remove margens para o flexbox controlar */
+}
+
+/* Sobrescreve o estilo do botão WhatsApp especificamente na página de perfil */
+.perfil-botoes-container .botao-whatsapp {
+    position: static; /* Garante que não seja posicionado de forma absoluta */
+    width: auto;      /* Largura automática */
+    margin-top: 15px; /* Alinha verticalmente com os outros botões */
+}
+
+/* Estilo para o botão WhatsApp DENTRO do card na página inicial */
+.card .botao-whatsapp {
+    position: absolute;
+    bottom: 8px;
+    left: 8px; /* Posiciona no canto esquerdo */
+    width: 40%;
+    padding: 2px 4px;
+    border-radius: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white; /* Garante o texto branco */
+}
+
+/* Efeito hover para o botão WhatsApp DENTRO do card */
+.card .botao-whatsapp:hover {
+    background-color: #dd13c9; /* Mesma cor rosa do hover do botão de perfil */
+}
+
+/* --- Estilos para a Página de Contato (Layout Melhorado) --- */
+.formulario-contato {
+    max-width: 800px; /* Define uma largura máxima para o formulário */
+    margin: 30px auto; /* Centraliza o bloco na página */
+    padding: 25px;
+    background-color: #e9e6ce; /* Mesma cor de fundo do perfil */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px; /* Espaço entre os campos Nome e E-mail */
+    margin-bottom: 20px; /* Espaço abaixo da linha Nome/E-mail */
+}
+
+.form-group {
+    flex: 1; /* Faz cada grupo (nome, email) ocupar metade do espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contato label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"],
+.formulario-contato textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    box-sizing: border-box; /* Importante para o padding não estourar a largura */
+    background-color: #e9e6ce; /* Mesma cor do fundo do perfil */
+}
+
+.formulario-contato textarea {
+    min-height: 180px; /* Caixa de mensagem maior */
+    resize: vertical; /* Permite que o usuário aumente a caixa */
+    margin-bottom: 20px;
+}
+
+.formulario-contato button {
+    align-self: center; /* Centraliza o botão */
+    width: 50%;
+    max-width: 200px;
+    padding: 12px 20px;
+    background-color: #70aff3; /* Azul padrão dos botões */
+}
+
+/* Classe para esconder elementos visualmente, mas mantê-los para leitores de tela */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* --- Estilos do Rodapé --- */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #f4d94f; /* Mesma cor do cabeçalho */
+    color: #726c6c; /* Mesma cor do texto do cabeçalho */
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #726c6c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

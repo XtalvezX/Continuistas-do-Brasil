@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Continuístas do Brasil">
+    <link rel="stylesheet" href="style.css">
+    <title>Continuístas do Brasil</title>
+    <style>
+        /* Ajuste para diminuir a altura dos cards */
+        .card-info .card-nome {
+            margin-top: 0;      /* Remove o espaço acima do nome */
+            margin-bottom: 5px; /* Reduz o espaço abaixo do nome */
+        }
+        .card-info p {
+            margin-top: 4px;    /* Reduz o espaço acima dos parágrafos (cidade, idiomas, skills) */
+            margin-bottom: 4px; /* Reduz o espaço abaixo dos parágrafos */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Continuístas do Brasil</h1>
+        <nav>
+            <ul class="menu-navegacao">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre a Profissão</a></li>
+                <li><a href="conteudos.html">Conteúdos Úteis</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="apresentacao">
+        <h2>O que faz um(a) Continuísta?</h2>
+        <p>O continuísta é o profissional responsável por garantir a continuidade das cenas em uma produção audiovisual. Ele zela pelos mínimos detalhes, como figurinos, objetos de cena, posições e ações dos atores, para que não haja erros de sequência entre os planos gravados em momentos diferentes. É um trabalho de extrema atenção e organização, fundamental para a qualidade e coerência do filme, série ou comercial.</p>
+        <p>Navegue pelas listas abaixo para encontrar o profissional ideal para o seu projeto. Você pode usar a busca para filtrar por nome, cidade, habilidades e muito mais.</p>
+    </section>
+
+    <div class="conteudo-principal">
+        <!-- Coluna dos Continuístas -->
+        <div class="coluna">
+            <h2 class="titulo-coluna">Continuístas</h2>
+            <div class="busca-container">
+                <label for="busca-continuistas-input" class="sr-only">Buscar Continuístas</label>
+                <input id="busca-continuistas-input" type="text" placeholder="Busque por nome, cidade, skills..." list="sugestoes-continuistas" aria-label="Buscar Continuístas">
+                <button class="botao-busca" onclick="iniciarBuscaContinuistas()">Buscar</button>
+            </div>
+            <main id="card-container-continuistas" class="card-container"></main>
+            <button id="carregar-mais-continuistas" class="botao-carregar-mais" style="display: none;">Carregar Mais</button>
+        </div>
+
+        <!-- Coluna dos Assistentes -->
+        <div class="coluna">
+            <h2 class="titulo-coluna">Assistentes de Continuidade</h2>
+            <div class="busca-container">
+                <label for="busca-assistentes-input" class="sr-only">Buscar Assistentes de Continuidade</label>
+                <input id="busca-assistentes-input" type="text" placeholder="Busque por nome, cidade, skills..." list="sugestoes-assistentes" aria-label="Buscar Assistentes de Continuidade">
+                <button class="botao-busca" onclick="iniciarBuscaAssistentes()">Buscar</button>
+            </div>
+            <main id="card-container-assistentes" class="card-container"></main>
+            <button id="carregar-mais-assistentes" class="botao-carregar-mais" style="display: none;">Carregar Mais</button>
+        </div>
+    </div>
+
+    <!-- Listes de suggestions pour l'autocomplétion -->
+    <datalist id="sugestoes-continuistas">
+        <!-- Cidades -->
+        <option value="São Paulo">
+        <option value="Belo Horizonte">
+        <option value="Rio de Janeiro">
+        <option value="João Pessoa">
+        <option value="Porto Alegre">
+    </datalist>
+
+    <datalist id="sugestoes-assistentes">
+        <option value="São Paulo">
+        <option value="Rio de Janeiro">
+    </datalist>
+
+    <footer class="footer">
+        <p>&copy; 2025 Continuístas do Brasil. Site construído por <a href="https://www.linkedin.com/in/sable-valente/" target="_blank">FWR</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>

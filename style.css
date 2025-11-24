@@ -73,7 +73,7 @@ header {
 .conteudo-principal {
     /* Por padrão (mobile), as colunas ficarão empilhadas */
     gap: 20px; /* Espaço entre as colunas */
-    padding: 20px;
+    padding: 0 20px 20px; /* Remove o padding-top para evitar espaçamento duplo */
 }
 
 /* Estilo de cada coluna */
@@ -81,6 +81,9 @@ header {
     flex: 1; /* Faz com que cada coluna ocupe o mesmo espaço */
     display: flex;
     flex-direction: column;
+    background-color: #e9e6ce; /* Mesma cor de fundo do perfil/contato */
+    padding: 15px;
+    border-radius: 8px;
 }
 
 .titulo-coluna {
@@ -95,9 +98,9 @@ header {
 .busca-container {
     display: flex;
     /* Define uma largura máxima para a barra de busca */
-    max-width: 400px; 
+    max-width: 450px; 
     width: 100%; /* Garante que ela seja responsiva em telas menores */
-    margin: 0 auto 15px auto; /* Centraliza a barra e mantém a margem inferior */
+    margin: 30px auto 15px auto; /* Adiciona margem superior de 30px */
 }
 
 /* --- AJUSTE DO TAMANHO DA CAIXA DE BUSCA --- */
@@ -291,11 +294,17 @@ header {
 /* --- Estilos para a Página de Contato (Layout Melhorado) --- */
 .formulario-contato {
     max-width: 800px; /* Define uma largura máxima para o formulário */
+    max-width: 600px; /* Deixa o formulário ainda mais estreito */
     margin: 30px auto; /* Centraliza o bloco na página */
     padding: 25px;
     background-color: #e9e6ce; /* Mesma cor de fundo do perfil */
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
 }
 
 .form-row {
@@ -459,4 +468,15 @@ header {
 .perfil-detalhado .botao-whatsapp:hover {
     transform: translateY(-2px); /* Leve elevação do botão */
     filter: brightness(1.1); /* Aumenta o brilho */
+}
+
+/* --- Estilos para a Página de Conteúdos Úteis (Container em Construção) --- */
+.conteudos-uteis-container {
+    max-width: 800px; /* Define uma largura máxima para o contêiner */
+    margin: 30px auto; /* Centraliza o bloco na página e define a distância do topo */
+    padding: 25px;
+    background-color: #e9e6ce; /* Mesma cor de fundo do perfil e contato */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: justify; /* Alinha o texto justificado, como na apresentação */
 }
